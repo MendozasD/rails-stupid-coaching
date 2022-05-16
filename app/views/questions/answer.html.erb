@@ -1,0 +1,13 @@
+<h1>Stupid Coaching</h1>
+
+  <div class="card qts">
+    <%= params[:question] %>
+    <p>- You</p>
+  </div>
+
+  <div class="card ans">
+    <%= @coach_answer %>
+    <p>-Your Coach</p>
+  </div>
+
+<footer><%= link_to "Ask a new question", ask_path %></footer>
